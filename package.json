@@ -31,8 +31,8 @@
     "web-vitals": "^0.2.4"
   },
   "build": {
-    "productName": "whatsitConnect",
-    "appId": "org.pangzixiang.whatsitConnect",
+    "productName": "react-electron-template",
+    "appId": "org.react-electron-template",
     "win": {
       "target": [
         "nsis"
