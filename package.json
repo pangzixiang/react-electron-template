@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "template for react + electron",
   "private": true,
-  "main": "main.js",
+  "main": "public/electron.js",
   "homepage": ".",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
@@ -47,7 +47,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "package": "yarn build && copy main.js build\\electron.js && electron-builder build --publish never"
+    "package": "yarn build && electron-builder build --publish never"
   },
   "eslintConfig": {
     "extends": [
